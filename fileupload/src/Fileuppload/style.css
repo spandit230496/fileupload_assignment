@@ -1,0 +1,53 @@
+.form{
+    height:20rem;
+    width: 25rem;
+    background-color: wheat;
+    color:wheat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:200px 0 0 500px;
+    border: 2px dotted black;
+   
+}
+.form input{
+    height: 5rem;
+    width: 8rem;
+    color: blanchedalmond;
+    background-color: wheat;
+    margin-bottom:2rem;
+    margin-left: 4rem;
+    opacity: 0;
+}
+input[type="file"]::placeholder {
+    color: blue;
+    font-style: italic;
+  }
+.show{
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 700;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 1rem;
+}
+.upload{
+    margin-top: -6.5rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
+    background-color:black;
+    margin-bottom: 2rem;
+    
+    
+    
+}
+h1{
+    margin-top:-0.8rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.noshow{
+    display: none;
+}
